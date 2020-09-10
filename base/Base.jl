@@ -184,6 +184,10 @@ end
 include("osutils.jl")
 include("c.jl")
 
+# run-time library
+include("runtime/runtime.jl")
+using .Runtime
+
 # Core I/O
 include("io.jl")
 include("iobuffer.jl")
