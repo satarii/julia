@@ -138,8 +138,6 @@ extern void _chkstk(void);
 #define __alignof__ __alignof
 #endif
 
-#define DISABLE_FLOAT16
-
 // llvm state
 extern JITEventListener *CreateJuliaJITEventListener();
 
